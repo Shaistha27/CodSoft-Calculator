@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+}
+h1 {
+  color: #8f00ff;
+  font-family: "Mulish", sans-serif;
+}
+.button {
+  width: 60px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid#8f00ff;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #8f00ff;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+  transition: all 0.2s ease;
+}
+.button:active {
+  transform: scale(0.99);
+}
+
+.row {
+  margin: 6px 6px;
+  text-align: center;
+}
+
+.row input {
+  font-size: 22px;
+  margin: 0;
+  width: 100%;
+  height: 59px;
+  resize: none; /* Prevent textarea resizing */
+  line-height: 59px;
+  padding: 10px 0px;
+  border: 2px solid #8f00ff;
+  border-radius: 9px;
+  color: #8f00ff;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+}
+.button:hover {
+  color: #ffffff;
+  background: #8f00ff;
+  border: 2px solid #ffffff;
+}
+.row input:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: #8f00ff; /* Set the border color to the desired color on focus */
+}
+.row1 button,
+.star,
+.divide,
+.plus,
+.minus {
+  color: #ffffff;
+  background: #8f00ff;
+}
+.row1 button:hover,
+.star:hover,
+.divide:hover,
+.plus:hover,
+.minus:hover {
+  color: #8f00ff;
+  background: #ffffff;
+  border: 2px solid #8f00ff;
+}
+
+.input {
+  padding-right: 30px;
+  box-sizing: border-box; /* Include padding in the width */
+}
